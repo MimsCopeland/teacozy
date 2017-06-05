@@ -19,8 +19,11 @@ header {
   border-bottom: 1px solid seashell;
   height: 69px;
   position: fixed;
+  top: 0;
   width: 100%;
   align-items: center;
+  z-index: 10;
+  background-color: black;
 }
 
 nav a {
@@ -32,6 +35,8 @@ nav a {
 .main {
   position: relative;
   top: 69px;
+  width: 100%;
+  text-align: center;
 }
 
 .mission {
