@@ -5,4 +5,39 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  min-width: 1300px;
+}
+
+.logo img{
+  height: 50px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: underline;
+  color: seashell;
+  padding-right: 10px;
+}
+
+.main {
+  position: relative;
+  top: 69px;
+}
+
+.mission {
+  width: 1200px;
+  height: 700px;
+  
+}
+
+footer {
 }
