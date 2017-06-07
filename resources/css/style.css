@@ -102,6 +102,7 @@ nav a {
 footer {
 }
 
-footer {
-text-align: left;
+.footer {
+  text-align: left;
+  margin-left: 20px;
 }
