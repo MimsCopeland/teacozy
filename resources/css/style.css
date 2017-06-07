@@ -55,6 +55,7 @@ nav a {
   background-color: black;
   width: 1200px;
   height: 100px;
+  line-height: 0px;
 }
 
 .tea {
@@ -99,4 +100,8 @@ nav a {
   flex-wrap: wrap;
   justify-content: center;
 footer {
+}
+
+footer {
+text-align: left;
 }
